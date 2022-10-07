@@ -1,0 +1,158 @@
+/* начало шапки */ 
+
+* {
+    font-family: 'Orbitron', sans-serif;
+  }
+  body {
+    background:linear-gradient(to right,#000000 55%,#57B8FF 45%)
+  
+  }
+  
+  header {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0px 28px;
+    padding: 18px 18px auto;
+  }
+  img .logo{
+    display: flex;
+    align-items: center;
+  }
+  nav>a .link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+    margin:30px 30px auto;
+    font-weight: 400;
+  }
+   .buttons{
+    display: flex;
+    align-items: center;
+  
+  }
+  .buttons .cart{
+    display: flex;
+    height: 32px;
+    padding-right: 40px;
+    align-items: center;
+  }
+  
+  .buttons .badge{
+    background-color: #fff;
+      color: #141820;
+      padding: 6px 6px;
+      font-size: 11px;
+      border-radius: 9px;
+      line-height: 7px;
+    position:absolute;
+    top: 15px;
+    right: 218px;
+  }
+   .buttons .class-type{
+      color:white;
+      padding: 16px 31px;
+      background: none;
+      border: 1px solid #fff;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      user-select: none;
+      align-items: center;
+  }
+  a:hover{
+    color: #FAC422;
+  }
+ /* шапка конец  */ 
+
+ /* main */
+ .download_text{
+color: #fff;
+ }
+ .download_txt{
+color: #fff;
+ }
+ .nep_text{
+  display: flex;
+  margin-right: 170px;
+  float: left;
+  margin-top: 300px;
+  margin-left: 65px;
+ }
+ .man{
+  display: flex;
+  position: absolute;
+height: 518px;
+left: 50%;
+right: 0%;
+margin-top: -50px;
+
+background: url(.png);
+border-radius: 0px;;
+
+ }
+ 
+ .FUTURE{
+  position: absolute;
+  display: flex;
+  color: #fff;
+  float: left;
+ margin-left: 115px;
+  margin-top: -27px;
+ }
+
+.fire{
+  float: inline-start;
+  margin-top: 235px;
+  margin-left: -820px;
+  
+ 
+  
+}
+.ssilki{
+  position: absolute;
+  display: flex;
+  transform: rotate(270deg);
+  margin-left: -230px;
+  margin-top: -160px;
+  color: #80858F;
+  margin-top: 160px;
+}
+.Loere{
+  position: absolute;
+  display: flex;
+  color: #999;
+  font-size: 20px;
+  margin-left: 65px;
+  margin-top: 320px;
+  font-weight: 400px;
+font-size: 18px;
+line-height: 28px;
+max-width: 615px;
+  
+}
+.Explore{
+  position: absolute;
+  display: flex;
+  background-color: #57B8FF;
+  border-radius: 0px;
+  padding: 12px 10px;
+  font-size: 18px;
+  margin-top: 403px;
+  margin-left: 62px;
+  
+}
+.btn{
+  display: flex;
+  position: absolute;
+  margin-left: 250px;
+  font-size: 18px;
+  margin-top: 415px;
+}
+ /* конец main */ 
